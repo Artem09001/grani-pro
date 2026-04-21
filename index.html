@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ГРАНИТ PRO — ремонт квартир под ключ. Работаем по договору. Гарантия 1 год. Рассрочка 0%.">
+  <title>ГРАНИТ PRO — Ремонт квартир под ключ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <img src="img/Логотип.jpg" alt="ГРАНИТ PRO" class="nav-logo">
+        <span class="nav-name">ГРАНИТ PRO</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#advantages">Преимущества</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#portfolio">Работы</a></li>
+        <li><a href="#how-we-work">Как работаем</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <a href="#contacts" class="btn btn-primary nav-cta">Оставить заявку</a>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Мобильное меню -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#advantages">Преимущества</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#portfolio">Работы</a></li>
+      <li><a href="#how-we-work">Как работаем</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+    <a href="#contacts" class="btn btn-primary">Оставить заявку</a>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       1. HERO
+  ══════════════════════════════════════════ -->
+  <section id="hero">
+    <video autoplay muted loop playsinline preload="none" poster="img/Логотип.jpg" class="hero-video">
+      <source src="img/video_2026-04-21_23-46-12.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="img/Логотип.jpg" alt="ГРАНИТ PRO" class="hero-logo">
+      <h1>Ремонт квартир<br>под ключ</h1>
+      <p class="hero-sub">Работаем по договору&nbsp;&nbsp;·&nbsp;&nbsp;Гарантия 1 год&nbsp;&nbsp;·&nbsp;&nbsp;Рассрочка 0%</p>
+      <div class="hero-btns">
+        <a href="#contacts" class="btn btn-primary btn-lg">Оставить заявку</a>
+        <a href="#portfolio" class="btn btn-outline btn-lg">Смотреть работы</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       2. ПРЕИМУЩЕСТВА
+  ══════════════════════════════════════════ -->
+  <section id="advantages" data-reveal>
+    <div class="container">
+      <div class="section-header">
+        <h2>Почему выбирают нас</h2>
+        <p class="section-sub">Мы не обещаем — мы гарантируем</p>
+      </div>
+      <div class="advantages-grid">
+        <div class="advantage-card" style="--delay:0ms">
+          <div class="adv-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="6" width="32" height="36" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 18h16M16 26h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M16 34h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Работаем официально</h3>
+          <p>Подписываем договор до начала работ. Смета фиксированная — никаких скрытых доплат.</p>
+        </div>
+        <div class="advantage-card" style="--delay:100ms">
+          <div class="adv-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6L8 14v12c0 9.94 6.84 19.24 16 22 9.16-2.76 16-12.06 16-22V14L24 6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M17 24l5 5 9-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Гарантия 1 год</h3>
+          <p>Устраняем любые дефекты за свой счёт в течение гарантийного срока — без лишних разговоров.</p>
+        </div>
+        <div class="advantage-card" style="--delay:200ms">
+          <div class="adv-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="12" width="36" height="26" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M6 20h36" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M14 30h8M30 30h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Рассрочка 0%</h3>
+          <p>Разбейте оплату на 3, 4 или 6 месяцев без переплат и скрытых процентов.</p>
+        </div>
+        <div class="advantage-card" style="--delay:300ms">
+          <div class="adv-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 38L20 18l8 12 6-8 4 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="38" cy="12" r="4" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Любая сложность</h3>
+          <p>От косметического ремонта до полного преображения — берёмся за проекты любого масштаба.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       3. УСЛУГИ
+  ══════════════════════════════════════════ -->
+  <section id="services" data-reveal>
+    <div class="container">
+      <div class="section-header">
+        <h2>Наши услуги</h2>
+        <p class="section-sub">Полный спектр ремонтных работ</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" style="--delay:0ms">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 40V20a4 4 0 014-4h24a4 4 0 014 4v20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M6 40h36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M18 36v-8h12v8" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="24" cy="24" r="3" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Ремонт ванной комнаты</h3>
+          <p>Укладка плитки, монтаж сантехники, гидроизоляция, отделка — под ключ.</p>
+          <a href="#contacts" class="service-link">Узнать цену →</a>
+        </div>
+        <div class="service-card" style="--delay:100ms">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="32" height="32" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M8 20h32M20 8v32" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/>
+              <path d="M14 14h4v4h-4zM30 30h4v4h-4z" fill="currentColor" opacity=".4"/>
+            </svg>
+          </div>
+          <h3>Квартира под ключ</h3>
+          <p>Полный ремонт от чернового состояния до финального результата с мебелью.</p>
+          <a href="#contacts" class="service-link">Узнать цену →</a>
+        </div>
+        <div class="service-card" style="--delay:200ms">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="14" height="14" rx="1" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="26" y="8" width="14" height="14" rx="1" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="8" y="26" width="14" height="14" rx="1" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="26" y="26" width="14" height="14" rx="1" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Укладка плитки</h3>
+          <p>Любой формат и рисунок: кабанчик, шахматка, диагональ, крупный формат.</p>
+          <a href="#contacts" class="service-link">Узнать цену →</a>
+        </div>
+        <div class="service-card" style="--delay:0ms">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 10h28v28H10z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M10 10l6 6M38 10l-6 6M10 38l6-6M38 38l-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16 16h16v16H16z" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/>
+            </svg>
+          </div>
+          <h3>Обои и покраска</h3>
+          <p>Поклейка любых видов обоев, декоративная штукатурка, покраска стен и потолков.</p>
+          <a href="#contacts" class="service-link">Узнать цену →</a>
+        </div>
+        <div class="service-card" style="--delay:100ms">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 38V16l16-8 16 8v22" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M6 38h36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <rect x="18" y="24" width="12" height="14" rx="1" stroke="currentColor" stroke-width="2"/>
+              <circle cx="24" cy="31" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Двери и напольные покрытия</h3>
+          <p>Установка межкомнатных дверей, укладка ламината, паркетной доски, линолеума.</p>
+          <a href="#contacts" class="service-link">Узнать цену →</a>
+        </div>
+        <div class="service-card" style="--delay:200ms">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8v6M24 34v6M8 24h6M34 24h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 10l3 5M32 10l-3 5M16 38l3-5M32 38l-3-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+            </svg>
+          </div>
+          <h3>Электрика и сантехника</h3>
+          <p>Замена проводки, монтаж розеток, установка сантехники — всё по нормативам.</p>
+          <a href="#contacts" class="service-link">Узнать цену →</a>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="#contacts" class="btn btn-primary btn-lg">Получить консультацию</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       4. ПОРТФОЛИО
+  ══════════════════════════════════════════ -->
+  <section id="portfolio" data-reveal>
+    <div class="container">
+      <div class="section-header">
+        <h2>Наши работы</h2>
+        <p class="section-sub">Фото реальных объектов — ничего лишнего</p>
+      </div>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">Все работы</button>
+        <button class="filter-btn" data-filter="bathroom">Ванные</button>
+        <button class="filter-btn" data-filter="corridor">Коридоры</button>
+        <button class="filter-btn" data-filter="kitchen">Кухни</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Ванные комнаты -->
+        <div class="portfolio-item" data-category="bathroom">
+          <img src="img/photo_2026-03-27_07-17-53.jpg" loading="lazy" alt="Ремонт ванной комнаты в Казани">
+          <div class="portfolio-overlay"><span>Ванная комната</span></div>
+        </div>
+        <div class="portfolio-item" data-category="bathroom">
+          <img src="img/photo_2026-03-27_09-12-03 (2).jpg" loading="lazy" alt="Ванная с мраморной плиткой">
+          <div class="portfolio-overlay"><span>Ванная комната</span></div>
+        </div>
+        <div class="portfolio-item" data-category="bathroom">
+          <img src="img/photo_2026-03-27_09-12-03.jpg" loading="lazy" alt="Душевая кабина под ключ">
+          <div class="portfolio-overlay"><span>Ванная комната</span></div>
+        </div>
+        <div class="portfolio-item" data-category="bathroom">
+          <img src="img/photo_2026-03-27_09-12-04.jpg" loading="lazy" alt="Укладка плитки в ванной">
+          <div class="portfolio-overlay"><span>Ванная комната</span></div>
+        </div>
+        <!-- Коридоры -->
+        <div class="portfolio-item" data-category="corridor">
+          <img src="img/photo_2026-04-01_08-58-27.jpg" loading="lazy" alt="Ремонт коридора и прихожей">
+          <div class="portfolio-overlay"><span>Коридор / Прихожая</span></div>
+        </div>
+        <div class="portfolio-item" data-category="corridor">
+          <img src="img/photo_2026-04-01_08-58-29.jpg" loading="lazy" alt="Отделка коридора под ключ">
+          <div class="portfolio-overlay"><span>Коридор / Прихожая</span></div>
+        </div>
+        <div class="portfolio-item" data-category="corridor">
+          <img src="img/photo_2026-04-11_11-05-21.jpg" loading="lazy" alt="Серые стены и деревянный пол">
+          <div class="portfolio-overlay"><span>Коридор / Прихожая</span></div>
+        </div>
+        <!-- Кухни -->
+        <div class="portfolio-item" data-category="kitchen">
+          <img src="img/photo_2026-04-04_08-22-10 (2).jpg" loading="lazy" alt="Ремонт кухни под ключ">
+          <div class="portfolio-overlay"><span>Кухня</span></div>
+        </div>
+        <div class="portfolio-item" data-category="kitchen">
+          <img src="img/photo_2026-04-04_08-22-10.jpg" loading="lazy" alt="Отделка кухни с деревянным полом">
+          <div class="portfolio-overlay"><span>Кухня</span></div>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="#contacts" class="btn btn-outline btn-lg">Обсудить мой проект</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       5. РАССРОЧКА
+  ══════════════════════════════════════════ -->
+  <section id="installment" data-reveal>
+    <div class="container">
+      <div class="installment-inner">
+        <div class="installment-image">
+          <img src="img/Расрочка.jpg" loading="lazy" alt="Рассрочка на ремонт 0%">
+        </div>
+        <div class="installment-text">
+          <span class="badge">🔥 Специальное предложение</span>
+          <h2>Рассрочка <span class="accent">0%</span><br>на 3, 4 и 6 месяцев</h2>
+          <p class="installment-lead">Сделайте ванную комнаты своей мечты уже сегодня — платите частями без переплат и скрытых процентов.</p>
+          <ul class="installment-plans">
+            <li>
+              <strong>3 месяца</strong>
+              <span>без переплат</span>
+            </li>
+            <li>
+              <strong>4 месяца</strong>
+              <span>без переплат</span>
+            </li>
+            <li>
+              <strong>6 месяцев</strong>
+              <span>без переплат</span>
+            </li>
+          </ul>
+          <a href="#contacts" class="btn btn-primary btn-lg">Оформить рассрочку</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       6. КАК МЫ РАБОТАЕМ
+  ══════════════════════════════════════════ -->
+  <section id="how-we-work" data-reveal>
+    <div class="container">
+      <div class="section-header">
+        <h2>Как мы работаем</h2>
+        <p class="section-sub">Прозрачный процесс от заявки до сдачи</p>
+      </div>
+      <div class="steps-track">
+        <div class="step" style="--delay:0ms">
+          <div class="step-number">1</div>
+          <h3>Заявка и замер</h3>
+          <p>Оставляете заявку — мы приезжаем и бесплатно замеряем объект.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" style="--delay:100ms">
+          <div class="step-number">2</div>
+          <h3>Смета</h3>
+          <p>Составляем детальную смету с фиксированными ценами. Никаких сюрпризов.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" style="--delay:200ms">
+          <div class="step-number">3</div>
+          <h3>Договор</h3>
+          <p>Подписываем договор с полным описанием работ, сроков и гарантий.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" style="--delay:300ms">
+          <div class="step-number">4</div>
+          <h3>Ремонт</h3>
+          <p>Закупаем материалы и выполняем все работы в оговорённые сроки.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" style="--delay:400ms">
+          <div class="step-number">5</div>
+          <h3>Сдача объекта</h3>
+          <p>Принимаете работу. Выдаём гарантию на 1 год. Вы счастливы — мы тоже.</p>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="#contacts" class="btn btn-primary btn-lg">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       7. КОНТАКТЫ
+  ══════════════════════════════════════════ -->
+  <section id="contacts" data-reveal>
+    <div class="container">
+      <div class="section-header">
+        <h2>Связаться с нами</h2>
+        <p class="section-sub">Перезвоним в течение 15 минут</p>
+      </div>
+      <div class="contacts-inner">
+        <div class="contacts-cards">
+          <!-- Даниил -->
+          <div class="contact-card">
+            <div class="contact-avatar">Д</div>
+            <h3>Даниил</h3>
+            <p class="contact-role">Мастер-прораб</p>
+            <div class="contact-btns">
+              <a href="tel:+79024281220" class="btn btn-outline btn-sm">
+                <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                +7 (902) 428-12-20
+              </a>
+              <a href="https://t.me/Daniil_116" target="_blank" rel="noopener" class="btn btn-tg btn-sm">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.018 9.52c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.972 14.7l-2.963-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.847.886z"/></svg>
+                @Daniil_116
+              </a>
+            </div>
+          </div>
+          <!-- Егор -->
+          <div class="contact-card">
+            <div class="contact-avatar">Е</div>
+            <h3>Егор</h3>
+            <p class="contact-role">Мастер-прораб</p>
+            <div class="contact-btns">
+              <a href="tel:+79631483828" class="btn btn-outline btn-sm">
+                <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                +7 (963) 148-38-28
+              </a>
+              <a href="https://t.me/Makhanov_Egor" target="_blank" rel="noopener" class="btn btn-tg btn-sm">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.018 9.52c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.972 14.7l-2.963-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.847.886z"/></svg>
+                @Makhanov_Egor
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Форма -->
+        <form class="lead-form" id="leadForm" novalidate>
+          <h3>Оставьте заявку</h3>
+          <p class="form-desc">Опишите задачу — рассчитаем стоимость бесплатно</p>
+          <div class="form-group">
+            <input type="text" name="name" id="fname" placeholder="Ваше имя" required autocomplete="name">
+            <span class="field-error" id="nameError">Введите ваше имя</span>
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" id="fphone" placeholder="+7 (___) ___-__-__" required autocomplete="tel">
+            <span class="field-error" id="phoneError">Введите корректный номер</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">Получить консультацию</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+          <div class="form-success" id="formSuccess" hidden>
+            <svg viewBox="0 0 24 24" fill="none" width="40" height="40"><circle cx="12" cy="12" r="10" stroke="#F5A623" stroke-width="2"/><path d="M8 12l3 3 5-5" stroke="#F5A623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <strong>Заявка принята!</strong>
+            <p>Перезвоним в течение 15 минут</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="img/Логотип.jpg" alt="ГРАНИТ PRO" class="footer-logo">
+          <div>
+            <strong class="footer-name">ГРАНИТ PRO</strong>
+            <p>Ремонт квартир под ключ</p>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <a href="tel:+79024281220">+7 (902) 428-12-20 — Даниил</a>
+          <a href="tel:+79631483828">+7 (963) 148-38-28 — Егор</a>
+          <div class="footer-tg">
+            <a href="https://t.me/Daniil_116" target="_blank" rel="noopener">@Daniil_116</a>
+            <a href="https://t.me/Makhanov_Egor" target="_blank" rel="noopener">@Makhanov_Egor</a>
+          </div>
+        </div>
+        <div class="footer-cta">
+          <a href="#contacts" class="btn btn-primary">Оставить заявку</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 ГРАНИТ PRO. Все права защищены.</p>
+        <p>Ремонт квартир · Работаем по договору · Гарантия 1 год</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════════
+       LIGHTBOX
+  ══════════════════════════════════════════ -->
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Просмотр фото" hidden>
+    <div class="lightbox-bg" id="lightboxBg"></div>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Предыдущее фото">‹</button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" id="lightboxImg" src="" alt="">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Следующее фото">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
